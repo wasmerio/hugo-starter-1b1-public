@@ -1,0 +1,12 @@
+[package]
+name = "smiletondi/hugo-starter-1b1-public"
+version = "0.2.1"
+description = "Wasmer Hugo starter package"
+readme = "README.md"
+repository = "https://github.com/wasmerio/hugo-starter-1b1-public"
+
+[dependencies]
+"wasmer/static-web-server" = "^1"
+
+[fs]
+public = "public"
